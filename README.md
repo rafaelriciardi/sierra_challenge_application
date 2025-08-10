@@ -15,7 +15,7 @@ This application is divided into two main parts, each with a well-defined functi
 
 ## Solution Architecture
 
-The architecture was designed to be decoupled and scalable, with each component functioning independently. The data flow is as follows: the user interacts with the front-end, which sends a request to the back-end, which in turn processes the request and returns the result.
+The architecture was designed to be decoupled and scalable, with each component functioning independently. The data flow is as follows: the user interacts with the front-end, which sends a request to the back-end, which in turn processes the request calling the LLM models using the solution.py code and returns the result.
 
 ## Deployment
 
